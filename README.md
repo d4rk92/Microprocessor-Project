@@ -11,3 +11,5 @@ https://www.theengineeringprojects.com/2018/04/how-to-add-new-library-in-proteus
 
 Made by: Mohammad Solki
 As a project for Microprocessor course (taught by Dr Ali Mir)  
+
+Thanks to Mr Amirhossein Banavi for his help in debugging the source code and also introducing the pre-built PIR Sensor.
