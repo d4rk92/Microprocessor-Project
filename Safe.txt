@@ -1,0 +1,9 @@
+In the Name of God
+
+
+A digital safe with a 3x4 keypad as input and a 2x16 LCD output.
+A pre-built PIR sensor is also used.
+
+Made by: Mohammad Solki
+As a project for Microprocessor course (taught by Dr Ali Mir)  
+

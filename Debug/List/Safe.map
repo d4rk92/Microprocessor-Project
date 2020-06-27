@@ -1,0 +1,53 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+pass                                                                              0x0306      16
+pass_temp                                                                         0x0316      16
+new_pass                                                                          0x0326      16
+msg                                                                               0x0336      32
+_base_y                                                                           0x0356       4
+_lcd_y                                                                            0x035A       1
+_lcd_maxx                                                                         0x035B       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+sync                                                                              R5           1
+lockdown                                                                          R6,R7        2
+countdown                                                                         R8,R9        2
+attempts                                                                          R10,R11      2
+status                                                                            R12,R13      2
+_lcd_x                                                                            R4           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_comp_isr                                                                   0x000FF     72
+ext_int0_isr                                                                      0x00147     45
+ext_int1_isr                                                                      0x00174     26
+ext_int2_isr                                                                      0x0018E    301
+main                                                                              0x002BB    112
+clear_one                                                                         0x0032B     14
+my_clear                                                                          0x00339     19
+change_pass                                                                       0x0034C     30
+display_msg                                                                       0x0036A     40
+set_msg                                                                           0x00392     14
+display_lockdown                                                                  0x003A0     56
+_lcd_write_nibble_G100                                                            0x003D8     20
+_lcd_write_data                                                                   0x003EC     12
+lcd_gotoxy                                                                        0x003F8     15
+lcd_clear                                                                         0x00407     13
+lcd_putchar                                                                       0x00414     26
+lcd_puts                                                                          0x0042E     17
+lcd_init                                                                          0x0043F     46
+strcmp                                                                            0x0046D     20
+strlen                                                                            0x00481     12
+strlenf                                                                           0x0048D     13
+strncpy                                                                           0x0049A     21
+put_buff_G102                                                                     0x004AF     62
+_print_G102                                                                       0x004ED    308
+snprintf                                                                          0x00621     59
